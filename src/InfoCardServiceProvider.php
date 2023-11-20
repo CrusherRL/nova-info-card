@@ -22,7 +22,6 @@ class InfoCardServiceProvider extends ServiceProvider
 
         Nova::serving(function (ServingNova $event) {
             Nova::script('info-card', __DIR__ . '/../dist/js/card.js');
-            Nova::style('info-card', __DIR__ . '/../dist/css/card.css');
         });
     }
 
